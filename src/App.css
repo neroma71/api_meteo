@@ -1,0 +1,94 @@
+ /* App */
+ body {
+  background:url(../public/ile.jpg)fixed no-repeat;
+ background-size:cover;
+}
+.App{
+  text-align: center;
+}
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+.App-header {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+/* Weather */
+.weather.card {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;  
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  margin-top:5vh;
+  text-align:center;
+}
+.weather.card .card-content {
+  padding:0;
+}
+.card-content img{
+  height:200px;
+  width:200px;
+  object-fit:cover;
+}
+.weather.card .card-action {
+  background: rgba(0, 0, 0, 0.2); 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width:100%;
+  margin-top:10px;
+}
+.bold{
+  font-weight:bold;
+}
+.weather .temperature {
+  margin-left:4vh;
+  font-size:120px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: -1px 0 rgb(239, 133, 12), 0 1px #fbb361, 1px 0 #fbae61, 0 -1px #fba961;
+}
+.search-container{
+  text-align:center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+::placeholder {
+  color:white;
+  opacity:1;
+}
+
+button:focus{
+  background:white;
+  border-radius:5px;
+}
+input[type="text"]{
+  text-align:center;
+  border:none;
+  color:white;
+}
+input[type="text"]:focus{
+  border-bottom:1px solid white;
+}
+.graphe{
+  color:white;
+}
+canvas{
+  background: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color:white;
+  height:200px;
+  width:0;
+}
